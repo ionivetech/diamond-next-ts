@@ -5,7 +5,7 @@ import { InputIcon } from 'primereact/inputicon'
 
 const Navbar = () => {
   return (
-    <div className='h-16 w-full bg-slate-100 px-5 text-slate-600'>
+    <div className='h-[70px] w-full px-8 text-slate-600'>
       <div className='flex h-full items-center justify-between'>
         {/* Hamburger menu */}
         <Button
@@ -14,6 +14,7 @@ const Navbar = () => {
           text
           severity='secondary'
           aria-label='hamburger-menu'
+          className='text-2xl'
         />
 
         {/* Search field */}
@@ -21,7 +22,7 @@ const Navbar = () => {
           <InputIcon className='pi pi-search' />
           <InputText
             placeholder='Search'
-            className='p-inputtext-sm max-w-52 rounded-full p-2 pl-10'
+            className='p-inputtext max-w-56 rounded-full p-2 pl-10'
             aria-label='search'
           />
         </IconField>

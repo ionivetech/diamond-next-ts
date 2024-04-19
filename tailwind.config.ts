@@ -6,6 +6,11 @@ const config: Config = {
     fontFamily: {
       sans: ['Poppins', 'sans-serif'],
     },
+    extend: {
+      boxShadow: {
+        sidebar: '0px 6px 30px #f1f3ff',
+      },
+    },
   },
   plugins: [],
 }

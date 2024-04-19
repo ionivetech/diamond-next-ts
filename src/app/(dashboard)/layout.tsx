@@ -39,13 +39,13 @@ export default function RootLayout({
             {/* Sidebar */}
             <Sidebar />
 
-            <div className='grid grid-rows-[min-content,calc(100vh-64px)]'>
+            <div className='grid grid-rows-[min-content,calc(100vh-70px)]'>
               {/* Navbar */}
               <Navbar />
 
               {/* Content */}
-              <div className='overflow-auto pb-5 pr-5'>
-                <div className='min-h-[calc(100vh-84px)] rounded-2xl bg-white p-5'>{children}</div>
+              <div className='overflow-auto'>
+                <div className='min-h-[calc(100vh-70px)] p-8'>{children}</div>
               </div>
             </div>
           </main>

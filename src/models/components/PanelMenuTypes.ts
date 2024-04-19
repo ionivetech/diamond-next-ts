@@ -1,6 +1,7 @@
 export interface PanelMenuTypes {
+  id: string
   label: string
-  icon: string
+  icon?: string
   url?: string
   items?: PanelMenuTypes[]
 }
